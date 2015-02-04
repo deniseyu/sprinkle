@@ -20,7 +20,7 @@ Sprinkle::App.controllers :spots do
   # end
   
   get :index do
-
+    "No spots listed yet!"
   end
 
   get :show do
