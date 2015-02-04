@@ -1,0 +1,10 @@
+---
+:orm: datamapper
+:test: rspec
+:mock: none
+:script: jquery
+:renderer: erb
+:stylesheet: none
+:namespace: Sprinkle
+:migration_format: number
+:admin_renderer: erb
