@@ -62,7 +62,7 @@
                  <div class=arrow> </div>
                  <h3 class=popover-title><%= pat(:delete, :model => "account") %></h3>
                  <div class=popover-content>
-                   <%- form_tag url(:accounts, :destroy, :id => account.id), :method => :delete do %>
+                   <% form_tag url(:accounts, :destroy, :id => account.id), :method => :delete do %>
                      <%= submit_tag pat(:delete), :class =>'list-row-action-popover-delete-one-btn btn btn-danger btn-small' %>
                      <div class="btn btn-default btn-small cancel"><%= pat(:cancel) %></div>
                    <% end %>
